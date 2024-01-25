@@ -6,7 +6,7 @@ public class App {
     
         
         Konto konto1 = new Konto();
-        
+        output("-------------------------------------------------------------");
         output(String.valueOf("Konto Nr. 1 " + konto1.getKontostand()));
         konto1.kontostand = konto1.kontostand * 2;
         
@@ -23,11 +23,13 @@ public class App {
         
         output(String.valueOf("Konto Nr. 3 " + konto3.getKontostand()));
         konto3.kontostand = konto3.kontostand * 10;
-        ;
-
+        
+        output("-------------------------------------------------------------");
         output(String.valueOf("Konto Nr. 1 nach der Dividende " + konto1.getKontostand()));
         output(String.valueOf("Konto Nr. 2 nach der Dividende " + konto2.getKontostand()));
         output(String.valueOf("Konto Nr. 3 nach der Dividende " + konto3.getKontostand()));
+        output("-------------------------------------------------------------");
+        
     }
 
 
